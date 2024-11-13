@@ -30,6 +30,9 @@ importers:
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.0.22
         version: 5.1.1
+      '@fontsource/pixelify-sans':
+        specifier: ^5.1.0
+        version: 5.1.0
       '@fontsource/roboto':
         specifier: ^5.0.14
         version: 5.1.0
@@ -1010,6 +1013,9 @@ packages:
 
   '@fontsource-variable/jetbrains-mono@5.1.1':
     resolution: {integrity: sha512-V+1aRFRvuZ66PpO30s8l/2aADKzpV9VRsO3kSZE+rTMvi4vab3cUcPHMN2z+wAvjkYJO71Yf+g3/Y6pSMmQpVQ==}
+
+  '@fontsource/pixelify-sans@5.1.0':
+    resolution: {integrity: sha512-hGUSF7MpkhyDnvjiuzeDnqz4rHSRLOOoHHNExEW7atTDszU3osSAxxOrT4LrhOHd7bl/XDoShTiG/2OAp/PtWQ==}
 
   '@fontsource/roboto@5.1.0':
     resolution: {integrity: sha512-cFRRC1s6RqPygeZ8Uw/acwVHqih8Czjt6Q0MwoUoDe9U3m4dH1HmNDRBZyqlMSFwgNAUKgFImncKdmDHyKpwdg==}
@@ -5795,6 +5801,8 @@ snapshots:
     optional: true
 
   '@fontsource-variable/jetbrains-mono@5.1.1': {}
+
+  '@fontsource/pixelify-sans@5.1.0': {}
 
   '@fontsource/roboto@5.1.0': {}
 
