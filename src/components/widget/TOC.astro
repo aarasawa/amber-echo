@@ -1,13 +1,13 @@
 ---
-import type { MarkdownHeading } from 'astro';
-import { siteConfig } from "../../config";
+import type { MarkdownHeading } from 'astro'
+import { siteConfig } from '../../config'
 
 interface Props {
   class?: string
   headings: MarkdownHeading[]
 }
 
-let { headings = []  } = Astro.props;
+const { headings = [] } = Astro.props
 
 // generate random headings, for testing
 // headings = [
@@ -29,28 +29,29 @@ let { headings = []  } = Astro.props;
 //     { text: 'Heading 3', depth: 3, slug: 'heading-3' },
 // ]
 
-let minDepth = 10;
+let minDepth = 10
 for (const heading of headings) {
-    minDepth = Math.min(minDepth, heading.depth);
+  minDepth = Math.min(minDepth, heading.depth)
 }
 
 const className = Astro.props.class
 
 const removeTailingHash = (text: string) => {
-    let lastIndexOfHash = text.lastIndexOf('#');
-    if (lastIndexOfHash != text.length - 1) {
-        return text;
-    }
+  const lastIndexOfHash = text.lastIndexOf('#')
+  if (lastIndexOfHash !== text.length - 1) {
+    return text
+  }
 
-    return text.substring(0, lastIndexOfHash);
+  return text.substring(0, lastIndexOfHash)
 }
 
-let heading1Count = 1;
+// biome-ignore lint/style/useConst: <heading1Count needs to change later>
+let heading1Count = 1
 
-const maxLevel = siteConfig.toc.depth;
+const maxLevel = siteConfig.toc.depth
 ---
 <div class:list={[className]}>
-    {headings.filter((heading) => heading.depth < minDepth + maxLevel).map((heading) =>
+    {headings.filter((heading: { depth: number; }) => heading.depth < minDepth + maxLevel).map((heading: { slug: any; depth: number; text: string; }) =>
             <a href={`#${heading.slug}`} class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
         hover:bg-[var(--toc-btn-hover)] active:bg-[var(--toc-btn-active)] py-2
     ">
