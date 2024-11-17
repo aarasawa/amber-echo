@@ -5,7 +5,7 @@
 
 @layer components {
     .card-base {
-        @apply rounded-[var(--radius-large)] overflow-hidden bg-zinc-950 transition;
+        @apply rounded-[var(--radius-large)] overflow-hidden bg-[var(--card-bg)] transition;
         border: 1px solid var(--primary);
         box-shadow: 0 0 2px var(--primary);
     }
