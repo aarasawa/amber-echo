@@ -46,8 +46,8 @@ importers:
         specifier: ^2.3.1
         version: 2.3.5(@types/node@22.8.1)(rollup@2.79.2)(sass@1.80.4)(stylus@0.63.0)(typescript@5.6.3)
       astro-icon:
-        specifier: ^1.1.1
-        version: 1.1.1
+        specifier: ^1.1.2
+        version: 1.1.2
       colorjs.io:
         specifier: ^0.5.2
         version: 0.5.2
@@ -66,6 +66,9 @@ importers:
       pagefind:
         specifier: ^1.1.0
         version: 1.1.1
+      pnpm:
+        specifier: ^9.13.2
+        version: 9.13.2
       reading-time:
         specifier: ^1.5.0
         version: 1.5.0
@@ -94,7 +97,7 @@ importers:
         specifier: ^2.13.0
         version: 2.13.1
       sharp:
-        specifier: ^0.33.0
+        specifier: ^0.33.5
         version: 0.33.5
       svelte:
         specifier: ^4.2.19
@@ -1765,8 +1768,8 @@ packages:
   astro-compress@2.3.5:
     resolution: {integrity: sha512-TWZr/7IbIyi5e4vjuVN8UgkKMOhFqH25466Ct1jIG9UoDz50uNP5iPFQ2zPqO/Oe2541kYU7CchZt7cJ32w0Wg==}
 
-  astro-icon@1.1.1:
-    resolution: {integrity: sha512-HKBesWk2Faw/0+klLX+epQVqdTfSzZz/9+5vxXUjTJaN/HnpDf608gRPgHh7ZtwBPNJMEFoU5GLegxoDcT56OQ==}
+  astro-icon@1.1.2:
+    resolution: {integrity: sha512-2qAHBtZLYuFEIMP0Ck0edyLi5fQmJjwP2Qbv41f8L4KAJ2sra/dH7q5lCOn4q0DHVtS0w3tPG8UKQRits3UPcg==}
 
   astro@4.16.7:
     resolution: {integrity: sha512-nON+8MUEkWTFwXbS4zsQIq4t0Fs42eulM4x236AL+qNnWfqNAOOqAnFxO1dxfJ1q+XopIBbbT9Mtev+0zH47PQ==}
@@ -3572,6 +3575,11 @@ packages:
 
   pkg-types@1.2.1:
     resolution: {integrity: sha512-sQoqa8alT3nHjGuTjuKgOnvjo4cljkufdtLMnO2LBP/wRwuDlo1tkaEdMxCRhyGRPacv/ztlZgDPm2b7FAmEvw==}
+
+  pnpm@9.13.2:
+    resolution: {integrity: sha512-iMnDhkRQNQ5lozWHq4Aaz5RtfIFO0RNNpKkk9t9aISD9NrRqq2j3zR1BMUkRLVPH2zpBNmJM/QD/GEagxs70ig==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   possible-typed-array-names@1.0.0:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
@@ -6622,7 +6630,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-icon@1.1.1:
+  astro-icon@1.1.2:
     dependencies:
       '@iconify/tools': 4.0.7
       '@iconify/types': 2.0.0
@@ -8884,6 +8892,8 @@ snapshots:
       confbox: 0.1.8
       mlly: 1.7.2
       pathe: 1.1.2
+
+  pnpm@9.13.2: {}
 
   possible-typed-array-names@1.0.0: {}
 
