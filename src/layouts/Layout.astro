@@ -8,13 +8,11 @@ import ImageWrapper from '@components/misc/ImageWrapper.astro'
 import { profileConfig, siteConfig } from '@/config'
 import ConfigCarrier from '@components/ConfigCarrier.astro'
 import {
-  AUTO_MODE,
   BANNER_HEIGHT,
   BANNER_HEIGHT_EXTEND,
   BANNER_HEIGHT_HOME,
   DARK_MODE,
   DEFAULT_THEME,
-  LIGHT_MODE,
   PAGE_WIDTH,
 } from '../constants/constants'
 import { defaultFavicons } from '../constants/icon'
@@ -116,21 +114,12 @@ const bannerOffset =
 		}}></style>  <!-- defines global css variables. This will be applied to <html> <body> and some other elements idk why -->
 
 		<!-- Set the theme before the page is rendered to avoid a flash -->
-		<script is:inline define:vars={{DEFAULT_THEME, LIGHT_MODE, DARK_MODE, AUTO_MODE, BANNER_HEIGHT_EXTEND, PAGE_WIDTH}}>
+		<script is:inline define:vars={{DEFAULT_THEME, DARK_MODE, BANNER_HEIGHT_EXTEND, PAGE_WIDTH}}>
 			const theme = localStorage.getItem('theme') || DEFAULT_THEME;
 			switch (theme) {
-				case LIGHT_MODE:
-					document.documentElement.classList.remove('dark');
-					break
 				case DARK_MODE:
 					document.documentElement.classList.add('dark');
 					break
-				case AUTO_MODE:
-					if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-						document.documentElement.classList.add('dark');
-					} else {
-						document.documentElement.classList.remove('dark');
-					}
 			}
 
 			// calculate the --banner-height-extend, which needs to be a multiple of 4 to avoid blurry text
