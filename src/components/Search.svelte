@@ -2,7 +2,6 @@
 import I18nKey from '@i18n/i18nKey'
 import { i18n } from '@i18n/translation'
 import { url } from '@utils/url-utils.ts'
-import * as pagefind from 'pagefind'
 import { onMount } from 'svelte'
 // biome-ignore lint/style/useConst: <need to be variables>
 let keywordDesktop = ''
