@@ -11,11 +11,11 @@ export const siteConfig: SiteConfig = {
   subtitle: 'Home',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
-    hue: 75,         
+    hue: 65,         
     fixed: true,     // Hide the theme color picker for visitors
   },
   banner: {
-    enable: true,
+    enable: false,
     src: '/banner.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
@@ -43,7 +43,7 @@ export const navBarConfig: NavBarConfig = {
     {
       name: 'GitHub',
       url: 'https://github.com/aarasawa/amber-echo',     // Internal links should not include the base path, as it is automatically added
-      external: true,                               // Show an external link icon and will open in a new tab
+      external: true,                                    // Show an external link icon and will open in a new tab
     },
   ],
 }

@@ -32,7 +32,6 @@ if (isLocal) {
   const normalizedPath = path
     .normalize(path.join('../../', basePath, src))
     .replace(/\\/g, '/')
-  console.log(`[DEBUG] Normalized Path: ${normalizedPath}`)
   const file = files[normalizedPath]
   if (!file) {
     console.error(
