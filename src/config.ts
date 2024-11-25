@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   subtitle: 'Home',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
-    hue: 65,         
+    hue: 55,         
     fixed: true,     // Hide the theme color picker for visitors
   },
   banner: {
