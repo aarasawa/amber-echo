@@ -107,7 +107,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 	}
 
 	h2 {
-		@apply text-balance text-base text-skin-muted print:text-lg;
+		@apply text-balance text-base print:text-lg;
 	}
 
 	img {
@@ -115,7 +115,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 	}
 
 	span {
-		@apply flex items-center gap-1 text-xs text-skin-hue ;
+		@apply flex items-center gap-1 text-xs ;
 	}
 
 	footer {
@@ -123,7 +123,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 	}
 
 	footer a, footer button {
-		@apply inline-flex size-8 items-center justify-center rounded-md p-1 transition-all duration-500 ease-linear text-skin-hue hover:bg-skin-button-accent hover:text-skin-inverted;
+		@apply inline-flex size-8 items-center justify-center rounded-md p-1 transition-all duration-500 ease-linear ;
 	}
 
 	@media (width <= 700px) {
