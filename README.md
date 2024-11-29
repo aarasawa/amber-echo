@@ -1,7 +1,5 @@
 # Amber Echo
 
-A static blog template built with [Astro](https://astro.build).
-
 > README version: `2024-11-23`
 
 ## ✨ Features
