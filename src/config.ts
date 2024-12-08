@@ -52,7 +52,6 @@ export const profileConfig: ProfileConfig = {
   avatar: '/profile-picture.jpg', 
   name: 'Alexander Arasawa',
   bio: 'Trying to learn more about everything.',
-  hobbies: 'Weightlifting, Photography, Gaming, Reading, Programming',
   links: [
     {
       name: 'LinkedIn',
