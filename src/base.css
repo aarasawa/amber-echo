@@ -6,9 +6,11 @@
 @layer components {
     .card-base {
         @apply rounded-[var(--radius-large)] overflow-hidden bg-[var(--card-bg)] transition;
+        border: 1px solid var(--primary);
+        box-shadow: 0 0 2px var(--primary);
     }
     h1, h2, h3, h4, h5, h6, p, a, span, li, ul, ol, blockquote, code, pre, table, th, td, strong {
-        @apply transition;
+        @apply transition
     }
     .card-shadow {
         @apply drop-shadow-[0_2px_4px_rgba(0,0,0,0.005)]
@@ -81,19 +83,24 @@
     }
 
     .text-90 {
-        @apply text-black/90 dark:text-white/90
+        @apply text-black/90 dark:text-white/90;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .text-75 {
-        @apply text-black/75 dark:text-white/75
+        @apply text-black/75 dark:text-white/75;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .text-50 {
-        @apply text-black/50 dark:text-white/50
+        @apply text-black/50 dark:text-white/50;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .text-30 {
-        @apply text-black/30 dark:text-white/30
+        @apply text-black/30 dark:text-white/30;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .text-25 {
-        @apply text-black/25 dark:text-white/25
+        @apply text-black/25 dark:text-white/25;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     html.is-changing .transition-swup-fade {
