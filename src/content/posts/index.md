@@ -3,7 +3,7 @@ title: Simple Guides for Amber Echo
 published: 2024-04-01
 description: "How to use this blog template."
 tags: ["Amber-Echo", "Blogging", "Customization"]
-category: Guides
+category: 'Guides'
 draft: false
 ---
 
@@ -34,8 +34,6 @@ draft: false
 | `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
 
 ## Where to Place the Post Files
-
-
 
 Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
 
