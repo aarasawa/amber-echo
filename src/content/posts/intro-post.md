@@ -4,7 +4,7 @@ published: 2024-12-16
 description: 'Describing the goals that I have for this year'
 image: ''
 tags: ["Goals"]
-category: '2025'
+category: '2025 Updates'
 draft: false 
 lang: ''
 ---
