@@ -32,3 +32,14 @@ Apex is Salesforce' proprietary programming language which is strongly typed, ob
 
 #### Node.js 
 Node.js is an asynchronous event-driven JavaScript runtime designed to build scalable network applications. It is used for developer tooling but not directly on Salesforce. New projects using Salesforce CLI include a set of Node.js scripts and utilities. 
+
+### Extending Salesforce
+Every object in your org has an API name for accessing data for that object. For example, Propertymap.js
+
+![propertyMap.js](./propertyMap.png)
+
+The list of commonly used APIs Salesforce
+
+| API | Description |
+---------------------
+| SOAP | Integrate org's data with other applications using standard SOAP protocols. |
