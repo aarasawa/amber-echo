@@ -24,7 +24,7 @@
     "@fontsource/roboto": "^5.0.14",
     "@supabase/supabase-js": "^2.46.2",
     "@swup/astro": "^1.4.1",
-    "astro": "^4.16.7",
+    "astro": "^4.16.18",
     "astro-compress": "^2.3.1",
     "astro-icon": "^1.1.2",
     "colorjs.io": "^0.5.2",
