@@ -19,5 +19,11 @@
     "source.organizeImports.biome": "always"
   },
   "frontMatter.dashboard.openOnStart": false,
-  "cSpell.words": ["matchid", "mdate", "sqlzoo", "teamid"]
+  "cSpell.words": [
+    "matchid",
+    "mdate",
+    "Skiena's",
+    "sqlzoo",
+    "teamid"
+  ]
 }
