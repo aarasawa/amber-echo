@@ -19,3 +19,9 @@ Account[] accts = [SELECT Name, Phone FROM Account];
 ```
 
 For testing queries or inspecting the database, there is a Query Editor in the Developer Console of the Org. 
+
+## Basic SOQL Syntax
+```apex
+# WHERE is an optional clause
+SELECT fields FROM ObjectName [WHERE Condition]
+```
