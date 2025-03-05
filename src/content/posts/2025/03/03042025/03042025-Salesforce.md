@@ -79,4 +79,23 @@ List<List<SObject>> searchList =
 ```
 
 ### SOQL vs. SOSL
-SOSL can search organization records for information and can search <b>ALL</b> objects. SOQL can <b>ONLY</b> query one standard/custom object at a time. 
+SOSL can search organization records for information and can search <b>ALL</b> objects. SOQL can <b>ONLY</b> query one standard/custom object at a time. They are two separate languages and have different syntax. 
+
+### SOSL Syntax
+Criteria that you can search for includes text expressions, scope of fields, list of objects/fields to retrieve, and conditions for selecting rows in source objects. 
+
+```sql
+FIND 'SearchQuery' [IN SearchGroup] [RETURNING ObjectsAndFields]
+-- SearchQuery can be grouped with logical operators, parentheses, and wildcards
+-- SearchGroup is optional e.g. ALL FIELDS, NAME FIELDS
+-- ObjectsAndFields is optional
+```
+
+### SOSL Apex Example
+SOSL also allows for binding local variables in Apex code. In the query, the variable name is preceded by a colon to bind. 
+
+```apex
+String soslFindClause = 'Wingo OR SFDC';
+List<List<sObject>> searchList = [FIND :soslFindClause IN ALL FIELDS
+        RETURNING Account(Name), Contact(FirstName, LastName, Department)];
+```
