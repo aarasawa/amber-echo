@@ -17,14 +17,14 @@
     "@astrojs/check": "^0.9.3",
     "@astrojs/rss": "^4.0.7",
     "@astrojs/sitemap": "^3.1.6",
-    "@astrojs/svelte": "^5.7.1",
-    "@astrojs/tailwind": "^5.1.1",
+    "@astrojs/svelte": "^6.0.2",
+    "@astrojs/tailwind": "^5.1.5",
     "@fontsource-variable/jetbrains-mono": "^5.0.22",
     "@fontsource/pixelify-sans": "^5.1.0",
     "@fontsource/roboto": "^5.0.14",
     "@supabase/supabase-js": "^2.46.2",
     "@swup/astro": "^1.4.1",
-    "astro": "^4.16.18",
+    "astro": "^5.15.4",
     "astro-compress": "^2.3.1",
     "astro-icon": "^1.1.2",
     "colorjs.io": "^0.5.2",
@@ -33,7 +33,7 @@
     "mdast-util-to-string": "^4.0.0",
     "overlayscrollbars": "^2.10.0",
     "pagefind": "^1.1.1",
-    "pnpm": "^9.15.6",
+    "pnpm": "^9.15.9",
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-components": "^0.3.0",
@@ -44,7 +44,7 @@
     "remark-math": "^6.0.0",
     "sanitize-html": "^2.13.0",
     "sharp": "^0.33.5",
-    "svelte": "^4.2.19",
+    "svelte": "^5.43.4",
     "typescript": "^5.5.4",
     "unist-util-visit": "^5.0.0"
   },
@@ -72,7 +72,8 @@
   "pnpm": {
     "overrides": {
       "vite-imagetools": "^6.2.7",
-      "sharp": "^0.33.0"
+      "sharp": "^0.33.0",
+      "svelte": "^5.1.0"
     }
   },
   "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
