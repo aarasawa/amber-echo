@@ -15,6 +15,7 @@ lang: 'en'
 3. [What the Future Holds](#going-forward)
 
 ## Between March and Now
+Between March and now there have been a bunch of things that I have started to as part of building the life that I want. Working on the home lab was part of it, however, more and more I found myself walking towards wanting to sink myself into my hobbies and interests. 
 
 ## New Hobbies
 
