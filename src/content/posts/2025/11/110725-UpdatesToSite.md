@@ -5,15 +5,15 @@ description: 'Been a while since I updated this site, this post I will examine w
 image: ''
 tags: []
 category: ''
-draft: true
+draft: false
 lang: 'en'
 ---
 
-# Table of Contents
+## Table of Contents
 - [Table of Contents](#table-of-contents)
-  - [Between March and Now](#between-march-and-now)
-  - [New Hobbies](#new-hobbies)
-  - [Going Forward](#going-forward)
+- [Between March and Now](#between-march-and-now)
+- [New Hobbies](#new-hobbies)
+- [Going Forward](#going-forward)
 
 ## Between March and Now
 Between March and now, much time has passed. I started to work on the home lab, however, having a more rounded life was my main motivation. Looking back, during college I saw that I can learn any skill if I put enough time into perfecting the craft. From woodworking, metalworking, programming, photography and weightlifting. A large event happened in my life in March and it spurred me to examine the road forward.
