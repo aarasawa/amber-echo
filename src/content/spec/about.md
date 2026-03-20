@@ -2,4 +2,4 @@
 
 ## Introduction
 
-My hobbies are weightlifting, reading, photography, and gaming.
+My hobbies are weightlifting, reading, photography, gaming, tennis, fishing, camping, shooting, woodworking, and ceramics.

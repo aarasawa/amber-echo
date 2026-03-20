@@ -7136,7 +7136,7 @@ snapshots:
       unstorage: 1.17.2
       vfile: 6.0.3
       vite: 6.4.1(@types/node@24.10.0)(jiti@1.21.7)(lightningcss@1.29.3)(sass@1.93.3)(stylus@0.63.0)(terser@5.39.0)(yaml@2.8.1)
-      vitefu: 1.1.1(vite@6.4.1(@types/node@24.10.0)(jiti@1.21.7)(lightningcss@1.29.3)(sass@1.93.3)(stylus@0.63.0)(terser@5.44.1)(yaml@2.8.1))
+      vitefu: 1.1.1(vite@6.4.1(@types/node@24.10.0)(jiti@1.21.7)(lightningcss@1.29.3)(sass@1.93.3)(stylus@0.63.0)(terser@5.39.0)(yaml@2.8.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -10878,6 +10878,10 @@ snapshots:
       stylus: 0.63.0
       terser: 5.44.1
       yaml: 2.8.1
+
+  vitefu@1.1.1(vite@6.4.1(@types/node@24.10.0)(jiti@1.21.7)(lightningcss@1.29.3)(sass@1.93.3)(stylus@0.63.0)(terser@5.39.0)(yaml@2.8.1)):
+    optionalDependencies:
+      vite: 6.4.1(@types/node@24.10.0)(jiti@1.21.7)(lightningcss@1.29.3)(sass@1.93.3)(stylus@0.63.0)(terser@5.39.0)(yaml@2.8.1)
 
   vitefu@1.1.1(vite@6.4.1(@types/node@24.10.0)(jiti@1.21.7)(lightningcss@1.29.3)(sass@1.93.3)(stylus@0.63.0)(terser@5.44.1)(yaml@2.8.1)):
     optionalDependencies:
